@@ -3,7 +3,7 @@
 @Library('roboshop-shared-library') _
 
 def configMap = [
-    application: "nodeJSVM",
+    application: "nodeJSEKS",
     component: "catalogue"
 ]
 if ( env.BRANCH_NAME.equalsIgnoreCase('master') ){
